@@ -1,0 +1,4 @@
+*.pyc
+dist/
+hack_exe/__pycache__
+hack_exe.egg-info/
