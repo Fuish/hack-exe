@@ -75,7 +75,7 @@ def main(url):
     sys.stdout.write(']\n')
     time.sleep(0.5)
 
-    print "root@$1:~# ",
+    print "root@{0}:~# ".format(url),
     sys.stdout.flush()
     time.sleep(5)
 
