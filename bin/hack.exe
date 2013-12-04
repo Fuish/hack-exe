@@ -1,0 +1,13 @@
+#!/usr/bin/env python
+import argparse
+
+if __name__ == '__main__':
+    from hack_exe import main
+
+    #generate argument list
+    parser = argparse.ArgumentParser(description='An animated terminal app that pretensd to hack a website, just like in the movies.')
+    parser.add_argument('-u', '--url', type=str, help='The domain to hack; example www.google.com')
+    args = parser.parse_args()
+    
+    main(args.url)
+
