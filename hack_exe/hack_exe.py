@@ -5,8 +5,8 @@ import sys
 import time
 
 clear = '\033[0m'
-red = '\033[91m'
-yellow = '\033[93m'
+red = '\033[31m'
+yellow = '\033[33m'
 
 such_demon = "{0}\
           .                                                      .\n\
