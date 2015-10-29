@@ -32,15 +32,14 @@ dX.    9Xb      .dXb    __                         __    dXb.     dXP     .Xb\n\
                                `             '\n\
 {1}".format(red, clear, yellow)
 
-such_skull ="{0}\
+such_skull =" \n\
   ___ (~ )( ~)\n\
  /   \_\ \/ / \n\
 |   D_ ]\ \/  \n\
 |   D _]/\ \  \n\
  \___/ / /\ \ \n\
       (_ )( _)\n\
-    
-{1}"
+    "
 
 def get_ip(url):
     try:
