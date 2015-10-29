@@ -32,6 +32,32 @@ dX.    9Xb      .dXb    __                         __    dXb.     dXP     .Xb\n\
                                `             '\n\
 {1}".format(red, clear, yellow)
 
+such_skull = "{0}\
+       _,.-------.,_\n\
+     ,;~'             '~;,\n\
+   ,;                     ;,\n\
+  ;                         ;\n\
+ ,'                         ',\n\
+,;                           ;,\n\
+; ;      .           .      ; ;\n\
+| ;   ______       ______   ; |\n\
+|  `/~"      " . "      "~\'  |\n\
+|  ~  ,-~~~^~, | ,~^~~~-,  ~  |\n\
+ |   |        }:{        |   |\n\
+ |   l       / | \       !   |\n\
+ .~  (__,.--" . . "--.,__)  ~.\n\
+ |     ---;' / | \ `;---     |\n\
+  \__.       \/^\/       .__/\n\
+   V| \                 / |V\n\
+    | |T~\___!___!___/~T| |\n\
+    | |`IIII_I_I_I_IIII'| |\n\
+    |  \,III I I I III,/  |\n\
+     \   `~~~~~~~~~~'    /\n\
+       \   .       .   /\n\    
+         \.    ^    ./ \n\
+           ^~~~^~~~^\n\
+{1}".format(red, clear, yellow)
+
 def get_ip(url):
     try:
         ip = socket.gethostbyname_ex(url)[2][0]
@@ -70,12 +96,21 @@ def main(url):
     print " [+] Transferring heartbleed files"
     print " [+] Starting sql_injection",
     dot(10)
-    print " [+] Begin sudo rm -rf /"
+    print " [+] Begin sudo rm -rf /",
+    dot(15)
     print " [+] 5"
+    time.sleep(0.5)
     print " [+] 4"
+    time.sleep(0.5)
     print " [+] 3"
+    time.sleep(0.5)
     print " [+] 2"
+    time.sleep(0.5)
     print " [+] 1"
+    time.sleep(0.5)
+    print "[+] ZED IS DED!"
+    time.sleep(0.6)
+    print such_skull
     
     sys.stdout.write('\n[')
     for i in xrange(65):
@@ -87,5 +122,5 @@ def main(url):
 
     print "root@{0}:~# ".format(url),
     sys.stdout.flush()
-    time.sleep(5)
+    time.sleep(10)
 
