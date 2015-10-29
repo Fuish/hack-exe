@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
     name='hack-exe',
     version='0.2',
-    url='https://github.com/gardaud/hack-exe',
+    url='https://github.com/Fuish/hack-exe',
     author='Guillaume Ardaud',
     author_email='gardaud@acm.org',
     description=('An animated terminal application that pretends to be hacking a website, just like in the movies.'),
