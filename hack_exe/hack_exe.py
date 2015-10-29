@@ -51,7 +51,7 @@ def dot(i):
 def main(url):
     print such_demon
 
-    print "Enumerating Target",
+    print "Enumerating Targets",
     dot(40)
     print " [+] Host: {0}\n [+] IPv4: {1}".format(url, get_ip(url)) #fixme
     print "Opening SOCK5 ports on infected hosts",
@@ -65,8 +65,18 @@ def main(url):
     print " [+] Knock on TCP<143,993,587,456,25,587,993,80>"
     print "Sending PCAP datagrams for fragmentation overlap",
     dot(10)
-    print " [+] Stack override ***** w00t w00t g0t r00t!"
-
+    print " [+] Stack override ***** w00t w00t g0t r00t!",
+    dot(10)
+    print " [+] Transferring heartbleed files"
+    print " [+] Starting sql_injection",
+    dot(10)
+    print " [+] Begin sudo rm -rf /"
+    print " [+] 5"
+    print " [+] 4"
+    print " [+] 3"
+    print " [+] 2"
+    print " [+] 1"
+    
     sys.stdout.write('\n[')
     for i in xrange(65):
       sys.stdout.write('=')
